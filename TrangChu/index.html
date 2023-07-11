@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPCK</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="trangchu.css">
+</head>
+<body>
+    <div class="navigator">
+        <div class="navigator-list">
+            <div class="navigator-item">
+                <a href="../TrangChu/trangchu.html" style="text-decoration: none;">TRANG CHỦ</a>
+            </div>
+            <div class="navigator-item">
+                <a href="../Kem/kem.html"  style="text-decoration: none;">KEM</a>
+            </div> 
+            <div class="navigator-item">
+                <a href="../GioiThieu/gioithieu.html"  style="text-decoration: none;">GIỚI THIỆU </a>
+          </div>
+
+            <div class="navigator-item">
+              <div onclick="scrollToElement1()">LỊCH SỬ </div>
+          </div> 
+          
+          <div class="navigator-item">
+              <div onclick="scrollToElement2()">SẢN XUẤT</div>
+          </div>
+
+            <div class="navigator-item">
+                <a href="../Login/login.html"  style="text-decoration: none;">ĐĂNG NHẬP</a>
+            </div>
+        </div>
+     <div class="navigator-icon">
+     </div>
+     <div class="timkiem-icon">
+        <img class="search-icon" src="../img/search.png">
+    </div>
+  
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" >
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" style="height: 500px;">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://kemtrangtien.vn/upload/feature/thumb_1920x0/bia-1660119555.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+          
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000" >
+            <img src="https://kemtrangtien.vn/upload/feature/thumb_1920x0/anh-banner-moi-1-1595501469.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+           
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://kemtrangtien.vn/upload/feature/thumb_1920x0/nghi-le-ron-rang-an-sang-cung-bau-xanh-1596173269.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+     
+
+      <div class="kemtn1" id="lichSuHinhThanh">
+         <img class="anh" src="../img/lichsu.png" >
+        </div>
+     
+        <div class="content" >
+          <p class="loi">Kem Tràng Tiền thành lập năm 1958. Tên gọi cũng chính là nơi đầu tiên kem được bán và sản xuất - 
+            "Tràng Tiền". Từ đó tới nay, qua bao thăng trầm cùng sự phát triển của thời đại, Kem Tràng Tiền vẫn đang 
+            tồn tại và tiếp tục phát triển tại số 35 Tràng Tiền, quận Hoàn Kiếm, Thành phố Hà Nội 
+             Đi qua bao năm tháng,
+            Kem Tràng Tiền đã trở thành biểu tượng gắn liền với ký ức của những người con hướng về Hà Nội.
+             "Phi thực kem Tràng Tiền bất thành người Hà Nội"</p>
+             
+        </div>
+
+        <div class="kemtn2">
+          <img class="anh1" src="../img/nha.png">
+        </div>
+
+        <li class="loi2">
+          <a href="../GioiThieu/gioithieu.html" style="text-decoration: none;">xem thêm -></a>
+        </li>
+
+        <div class="loi1" id="sanxuat">
+          <p>SẢN XUẤT</p>
+        </div>
+
+    <script src="../JS/spck.js"></script>
+
+    <div class="content20">
+       <div class="sanxuat">
+        <img class="sx1" src="../img/san-xuat.jpg" alt="">
+      </div>
+
+      <div class="loi3">
+        Tổng hợp những công thức quan trọng nhất từ những nguyên liệu
+         thơm ngon đã được chọn lọc kỹ lưỡng để tạo nên hương vị riêng
+          không lẫn vào đâu được của món kem Hà Nội trứ danh:
+      </div>
+     
+      <div class="loi4">
+        đậu xanh thái nhỏ, cốm xanh non, dừa tươi sợi trắng hay khoai môn béo ngậy
+        … vừa được đưa vào thế giới ẩm thực.
+      </div>
+
+      <div class="loi5">
+        Khi các nguyên liệu đã đủ nguội, đã đến lúc đổ chúng vào khuôn và để đông lạnh trong bồn nước muối.
+         Sau đó, những que kem được làm khô và đóng gói trong
+         tủ đá trong những chiếc hộp vuông vắn. Từ đây, món kem Tràng Tiền mát lạnh này đã sẵn sàng để giao 
+         cho du khách…
+      </div>
+
+    </div>
+
+    <div class="loi6">
+      Và ngay cả trong thời hiện đại, dù có sự hỗ trợ của nhiều loại máy móc tiên tiến nhưng người 
+      làm kem Tràng Tiền vẫn ưu ái những công đoạn thủ công. Các cô, các chú vẫn cần mẫn sàng, nhặt
+       từng hạt cốm tươi xanh, người thợ cẩn thận, tỉ mỉ tách lòng đỏ để không lẫn lòng trắng. Người 
+       thì miệt mài thái khoai, người thì tỉ mẩn lọc sợi dừa. Tất cả những người làm kem Tràng Tiền
+        đều gắn bó lâu dài tại nơi làm việc, 
+      ngày nào cũng làm đi làm lại một công việc nhưng ai nấy đều vui vẻ, hào hứng và không nỡ rời xa.
+    </div>
+
+
+    <div class="nguyenlieu">
+      NGUYÊN LIỆU
+  </div>
+
+  <div id="boxContainer">
+    <div class="content21">
+        <div class="anhkem">
+          <img src="../img/com.png" alt="">
+        </div>
+        <div class="loi7">
+          <h2 class="doc1">CỐM TƯƠI</h2>
+          <p class="doc">Nguyên liệu chuẩn lấy từ làng 
+            Cốm Vòng  đặc trưng tinh hoa ẩm thực Hà Nội mang đến hương vị dẻo mịn cho Kem Tràng Tiền</p>
+        </div>
+      
+        <div class="dauxanh">
+        <div class="anhkem">
+          <img src="../img/dau xanh.png" alt="">
+        </div>
+        <div class="loi7">
+          <h2 class="doc1">ĐẬU XANH</h2>
+          <p class="doc">Những hạt đậu xanh được chọn lọc, mẩy, chắc hạt tạo nên mùi thơm đặc
+            trưng béo ngậy chỉ kem đậu xanh mới có.</p>
+        </div>
+      </div>
+
+      <div class="cacao">
+        <div class="anhkem">
+          <img src="../img/cacao.png" alt="">
+        </div>
+        <div class="loi7">
+          <h2 class="doc1">CA CAO</h2>
+          <p class="doc">Từ những cây cacao đặc trưng từ Lâm Đồng, mang lại hương vị thơm dịu</p>
+        </div>
+      </div>
+
+      <div class="traxanh">
+        <div class="anhkem">
+          <img src="../img/traxanh.png" alt="">
+        </div>
+        <div class="loi7">
+          <h2 class="doc1">TRÀ XANH</h2>
+          <p class="doc">Bột trà xanh chất lượng tạo nên vị kem khác lạ vạn người mê.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="content23">
+      <div class="khoaimon">
+      <div class="anhkem2">
+        <img src="../img/khoaimon.png" alt="">
+      </div>
+      <div class="loi8">
+        <h2 class="doc2">KHOAI MÔN  </h2>
+        <p class="doc3">Chọn lọc những củ khoai môn ngon nhất để mang lại hương vị ngọt lạ, đặc trưng</p>
+      </div>
+    </div>
+
+    <div class="dautay">
+    <div class="anhkem2">
+      <img src="../img/dautay.png" alt="">
+    </div>
+    <div class="loi8">
+      <h2 class="doc2">DÂU TÂY  </h2>
+      <p class="doc3">Những trái dâu tây chín mọng, mang lại hương thơm chua dịu cùng sự ngọt ngào</p>
+    </div>
+  </div>
+
+  <div class="dua">
+    <div class="anhkem2">
+      <img src="../img/Dừa.png" alt="">
+    </div>
+    <div class="loi8">
+      <h2 class="doc2">DỪA  </h2>
+      <p class="doc3">Lấy từ nguồn dừa chất lượng nhất tại Bến Tre, vị sữa dừa tại Kem Tràng Tiền sẽ khiến bạn không muốn bỏ lỡ</p>
+    </div>
+  </div>
+
+  <div class="saurieng">
+    <div class="anhkem2">
+      <img src="../img/saurieng.png" alt="">
+    </div>
+    <div class="loi8">
+      <h2 class="doc2">SẦU RIÊNG  </h2>
+      <p class="doc3">Những múi sầu riêng thơm lừng, ngọt dịu được chọn lọc từ những trái sầu riêng thơm ngon nhất.</p>
+      </div>
+    </div>
+ </div>
+</div>
+
+<div id="hethongdaily">
+<div class="hethong">
+  <p class="chuviet">HỆ THỐNG ĐẠI LÝ</p>
+  <p class="chuviet1">Với nỗ lực đưa kem Tràng Tiền đến gần hơn với hàng ngàn du khách Việt Nam,
+     Kem Tràng Tiền đang mở rộng mạng lưới đại lý trên khắp cả nước.</p>
+</div>
+
+   <div class="daily">
+     <div class="anhdai-ly">
+       <img  src="../img/daily.png" alt="">
+     </div>
+     <div class="dailyloi">
+       <h2>100</h2>
+       <p>Đại lý trên toàn quốc</p>
+     </div>
+
+     <div class="anhdai-ly">
+      <img src="../img/bando.png" alt="">
+     </div>
+     <div class=" dailyloi">
+      <h2>20</h2>
+      <p>Tỉnh thành có hệ thống đại lý</p>
+     </div>
+
+     
+     <div class="anhdai-ly">
+      <img src="../img/khachhang.png" alt="">
+     </div>
+     <div class=" dailyloi">
+      <h2>1 triệu</h2>
+      <p>Khách hàng thân thiết</p>
+     </div>
+   </div>
+</div>
+
+</body>
+</html>
