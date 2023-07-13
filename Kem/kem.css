@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background: url(../img/hinh-anh-bau-troi-xanh-va-may-trang.jpg);
 }
 .chubanhang{
     padding-top: 100px;
@@ -8,7 +8,7 @@ body{
 .chukem1{
     font-size: 60px;
     font-weight: 900;
-    color: rgb(5, 63, 5)
+    color: rgb(5, 63, 5);
 }
 .chukem2{
     padding-left: 200px;
