@@ -1,0 +1,42 @@
+body{
+    
+}
+
+.banhang{
+    display: flex;
+    text-align: center;
+    padding-top: 150px;
+}
+img{
+    width: 200px;
+    height: 200px; 
+}
+.content-loi{
+    width: 400px;
+    padding-top: 10px;
+    font-size: 22px;
+}
+.bao-boc2{
+    display: flex;
+    text-align: center;
+    padding-top: 60px;
+}
+.bao-boc3{
+    display: flex;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+button{
+     background-color: white; 
+      color: green;  
+      border: 2px solid rgb(22, 220, 22);
+      width: 300px;
+      cursor: pointer;
+}
+.banhang2{
+    display: flex;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+}

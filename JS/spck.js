@@ -9,3 +9,8 @@ function scrollToElement1() {
     var element = document.getElementById("sanxuat");
     element.scrollIntoView({ behavior: "smooth" });
   }
+
+  function scrollToElement5() {
+    var element = document.getElementById("nguyenlieu");
+    element.scrollIntoView({ behavior: "smooth" });
+  }

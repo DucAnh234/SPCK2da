@@ -141,7 +141,7 @@ body{
     display: flex;
     flex-direction:row;
     align-items: start;
-
+    padding-bottom: 100px;
 }
 .content21{
     padding-top: 50px;
@@ -198,23 +198,38 @@ body{
 .chuviet{
     font-size: 25px;
     font-weight: 900;
-    color: rgb(5, 63, 5)
+    color: white
 }
 .chuviet1{
-    width: 30%;
+    width: 50%;
 }
 #hethongdaily{
     display: flex;
     flex-direction:row;
     align-items: start;
-    padding-top: 100px;
+    padding-top: 20px;
+    background-color: green;
+    color: white;
 }
 .daily{
     display: flex;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-right: 20px;
 }
 .anhdai-ly{
     float: left;
-    margin-right: 10px;
+    margin-right: 100px;
+}
+.dailyloi{
+    width: 70%;
+}
+.logo{
+    padding-bottom: 20px;
+}
+.footer{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgb(5, 41, 5);
+    padding-bottom: 40px;
 }
